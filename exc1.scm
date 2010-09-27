@@ -1,3 +1,5 @@
+#lang scheme
+
 (define in-S?
   (lambda (n)
     (if (zero? n) #t

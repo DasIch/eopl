@@ -1,3 +1,5 @@
+#lang scheme
+
 (define list-length
   (lambda (lst)
     (if (null? lst)
