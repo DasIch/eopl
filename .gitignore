@@ -1,0 +1,3 @@
+compiled/
+exc*
+!exc*.scm
