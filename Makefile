@@ -1,4 +1,4 @@
-all: exc1 exc2 exc3 exc4 exc5
+all: exc1 exc2 exc3 exc4 exc5 exc6
 
 exc1:
 	mzc --exe exc1 exc1.scm
@@ -14,6 +14,9 @@ exc4:
 
 exc5:
 	mzc --exe exc5 exc5.scm
+
+exc6:
+	mzc --exe exc6 exc6.scm
 
 clean:
 	find -regex ".*exc." -delete
