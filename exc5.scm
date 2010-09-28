@@ -1,5 +1,6 @@
 #lang scheme
 
+; returns #t if the symbol var occurs free in exp, otherwise returns #f
 (define occurs-free?
     (lambda (var exp)
         (cond
